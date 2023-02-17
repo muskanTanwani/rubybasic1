@@ -1,4 +1,4 @@
-ARR = [1,2,3,'X']
+ARR = [1,2,3,' y']
 RES = ARR.map{
     |i| 
     if i.is_a? Numeric
