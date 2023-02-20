@@ -1,6 +1,8 @@
-ARR1 = [1,2,3,4,5]
-ARR2 = [6,7,8,9,10]
+arr1 = [1,2,3,4,5]
+arr2 = [6,7,8,9,10]
 
-ARR1.concat(ARR2)
+arr1.concat(arr2)
 
-puts "#{ARR1}"   #output the merged array
+puts "#{arr1}"   #output the merged array
+
+    
