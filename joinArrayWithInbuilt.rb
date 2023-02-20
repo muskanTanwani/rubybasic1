@@ -4,5 +4,4 @@ arr2 = [6,7,8,9,10]
 arr1.concat(arr2)
 
 puts "#{arr1}"   #output the merged array
-
-    
+ 
