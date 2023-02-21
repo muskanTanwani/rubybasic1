@@ -50,14 +50,13 @@ arr.each do |ele|
 
   finPrice = finPrice.round(2)     # to round of the final price of product 
 
+  Total += finPrice                # to claculate final total
+
   resstr += finPrice.to_s          # to push the final price into resstr string 
 
   ans.push(resstr)                 # to push the final resstr string of purchase into array
 
   salesTax += tax                  # to calculate final tax
-  
-  Total += finPrice.to_i           # to claculate final total
-
 end
 
 ans.push("Sales Tax: " + salesTax.to_s)
