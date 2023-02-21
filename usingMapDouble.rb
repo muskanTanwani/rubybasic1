@@ -1,6 +1,6 @@
 arr = [1,2,3,'kate']
 
-res = ARR.map{|element| 
+res = arr.map{|element| 
 
   if element.is_a? Numeric
     element = element*2
@@ -10,4 +10,3 @@ res = ARR.map{|element|
 }
 
 puts "#{RES}"
-
